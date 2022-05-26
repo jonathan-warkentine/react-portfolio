@@ -9,7 +9,7 @@ export default function About () {
         <>
             <Header/>
             <Container>
-                <Card className='p-3 bg-white' border='dark' className='w-50 p-2 m-4'>
+                <Card className='p-3 bg-white w-50 p-2 m-4' border='dark'>
                     <Card.Body>
                         <Card.Title>[ Bio: ]</Card.Title>
                         <Card.Text>
@@ -19,7 +19,7 @@ export default function About () {
                         </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card className='p-3 bg-white' border='dark' className='w-50 p-2 m-4'>
+                <Card className='p-3 bg-white w-50 p-2 m-4' border='dark'>
                     <Card.Body>
                         <Card.Title>[ Work Experience: ]</Card.Title>
                         <Card.Text>
@@ -39,7 +39,7 @@ export default function About () {
                         </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card className='p-3 bg-white' border='dark' className='w-50 p-2 m-4'>
+                <Card className='p-3 bg-white w-50 p-2 m-4' border='dark'>
                     <Card.Body>
                         <Card.Title>[ Skills ]</Card.Title>
                         <Card.Text>
