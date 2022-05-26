@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.261c80d8.css",
-    "main.js": "/react-portfolio/static/js/main.2b8a429f.js",
-    "static/js/787.0cdbf9b3.chunk.js": "/react-portfolio/static/js/787.0cdbf9b3.chunk.js",
-    "static/media/Pokedex Screenshot.png": "/react-portfolio/static/media/Pokedex Screenshot.3b727e037988489a2909.png",
-    "static/media/Weather App Screenshot.png": "/react-portfolio/static/media/Weather App Screenshot.fc858858e2be2c39ca4d.png",
-    "static/media/Snodes Screenshot.png": "/react-portfolio/static/media/Snodes Screenshot.984bf532276e898ffd8b.png",
-    "static/media/password generator screenshot.png": "/react-portfolio/static/media/password generator screenshot.8dcdd6df65c47ed27a68.png",
-    "static/media/Tech Blog Screenshot.png": "/react-portfolio/static/media/Tech Blog Screenshot.f19e18deca8849c73da2.png",
-    "static/media/traks screenshot.png": "/react-portfolio/static/media/traks screenshot.7580312ddda64ede993e.png",
-    "index.html": "/react-portfolio/index.html",
-    "main.261c80d8.css.map": "/react-portfolio/static/css/main.261c80d8.css.map",
-    "main.2b8a429f.js.map": "/react-portfolio/static/js/main.2b8a429f.js.map",
-    "787.0cdbf9b3.chunk.js.map": "/react-portfolio/static/js/787.0cdbf9b3.chunk.js.map"
+    "main.css": "/static/css/main.261c80d8.css",
+    "main.js": "/static/js/main.d12531de.js",
+    "static/js/787.0cdbf9b3.chunk.js": "/static/js/787.0cdbf9b3.chunk.js",
+    "static/media/Pokedex Screenshot.png": "/static/media/Pokedex Screenshot.3b727e037988489a2909.png",
+    "static/media/Weather App Screenshot.png": "/static/media/Weather App Screenshot.fc858858e2be2c39ca4d.png",
+    "static/media/Snodes Screenshot.png": "/static/media/Snodes Screenshot.984bf532276e898ffd8b.png",
+    "static/media/password generator screenshot.png": "/static/media/password generator screenshot.8dcdd6df65c47ed27a68.png",
+    "static/media/Tech Blog Screenshot.png": "/static/media/Tech Blog Screenshot.f19e18deca8849c73da2.png",
+    "static/media/traks screenshot.png": "/static/media/traks screenshot.7580312ddda64ede993e.png",
+    "index.html": "/index.html",
+    "main.261c80d8.css.map": "/static/css/main.261c80d8.css.map",
+    "main.d12531de.js.map": "/static/js/main.d12531de.js.map",
+    "787.0cdbf9b3.chunk.js.map": "/static/js/787.0cdbf9b3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.261c80d8.css",
-    "static/js/main.2b8a429f.js"
+    "static/js/main.d12531de.js"
   ]
 }
