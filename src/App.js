@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/react-portfolio">
+    <Router basename={"window.location.pathname" || ""}>
       <div className="flex-column justify-center align-center min-100-vh bg-primary">
         <Routes>
           <Route 
