@@ -40,9 +40,9 @@ export default function About () {
                     </Card.Body>
                 </Card>
                 <Card className='p-3 bg-white w-50 p-2 m-4' border='dark'>
-                    <Card.Body>
+                    <Card.Body >
                         <Card.Title>[ Skills: ]</Card.Title>
-                        <div>
+                        <div className='border'>
                             My techncial proficiencies include:
                             <ul>
                                 <li>Client-side Web Development

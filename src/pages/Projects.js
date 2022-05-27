@@ -17,7 +17,7 @@ export default function Projects () {
             <div className='container-fluid d-flex justify-content-center gap-3 flex-wrap p-3'>
                 {projects.map(project => {
                     return (
-                        <Card className='p-3 bg-white' border='dark' style={{ width: '18rem' }} onMouseOver={(e) => e.target.style.cursor='pointer'} onClick={() => window.location.replace(project.link)}>
+                        <Card className='p-3 bg-white' key={project.title} border='dark' style={{ width: '18rem' }} onMouseOver={(e) => e.target.style.cursor='pointer'} onClick={() => window.location.replace(project.link)}>
                             <Card.Img className='border' variant="top" src={project.image}/>
                             <Card.Body>
                                 <Card.Title>{project.title}</Card.Title>

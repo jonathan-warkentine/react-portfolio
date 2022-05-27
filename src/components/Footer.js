@@ -15,7 +15,7 @@ import {
 
 export default function Footer (){
     return (
-        <Navbar fixed="bottom" bg="dark" variant="dark" style={{position: 'sticky', bottom: 0, zIndex: 1, borderRadius: 1}}>
+        <Navbar fixed="bottom" bg="dark" variant="dark" style={{position: 'sticky', bottom: 0, zIndex: 1, borderRadius: 2}}>
             <Nav className='me-auto ms-auto'>
                 <Stack className='text-center'>
                     <Stack direction="horizontal">

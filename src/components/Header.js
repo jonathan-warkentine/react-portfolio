@@ -3,7 +3,7 @@ import {Navbar, Nav, Container} from 'react-bootstrap';
 
 export default function Header (){
     return (
-        <Navbar bg="dark" variant="dark" style={{position: 'sticky', top: 0, zIndex: 1, borderRadius: 1}}>
+        <Navbar bg="dark" variant="dark" style={{position: 'sticky', top: 0, zIndex: 1, borderRadius: 2}}>
             <Container>
                 <Navbar.Brand href="/">J.P. Warkentine</Navbar.Brand>
                     <Nav className="me-auto">
