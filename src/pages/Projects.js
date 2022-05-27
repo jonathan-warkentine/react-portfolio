@@ -14,7 +14,7 @@ export default function Projects () {
     return (
         <div className='bg-light'>
             <Header/>
-            <div className='container-fluid d-flex gap-3 flex-wrap p-2'>
+            <div className='container-fluid d-flex justify-content-center gap-3 flex-wrap p-3'>
                 {projects.map(project => {
                     return (
                         <Card className='p-3 bg-white' border='dark' style={{ width: '18rem' }} onMouseOver={(e) => e.target.style.cursor='pointer'} onClick={() => window.location.replace(project.link)}>

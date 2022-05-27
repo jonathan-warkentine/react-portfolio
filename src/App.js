@@ -1,10 +1,10 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import {Home, About, Projects} from './pages';
 import './App.css';
 
 function App() {
   return (
-    <Router basename='/react-portfolio'>
+    <HashRouter>
       <div className="flex-column justify-center align-center min-100-vh bg-primary">
         <Routes>
           <Route 
@@ -21,7 +21,7 @@ function App() {
           />
         </Routes>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
