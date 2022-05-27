@@ -24,7 +24,7 @@ export default function Footer (){
                         <Nav.Link href="https://www.linkedin.com/in/jonathan-warkentine-b72bb984/"><FontAwesomeIcon icon={faLinkedin} color="#fff" /></Nav.Link>
                         <Nav.Link href="https://github.com/jonathan-warkentine/react-portfolio"><FontAwesomeIcon icon={faLaptopCode} color="#fff" /></Nav.Link>
                     </Stack>
-                    <Nav.Link> © {new Date().getFullYear()}</Nav.Link>
+                    <Nav.Link className='text-muted p-0 m-0'> © {new Date().getFullYear()}</Nav.Link>
                 </Stack>
             </Nav>
         </Navbar>

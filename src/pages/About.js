@@ -12,17 +12,17 @@ export default function About () {
                 <Card className='p-3 bg-white w-50 p-2 m-4' border='dark'>
                     <Card.Body>
                         <Card.Title>[ Bio: ]</Card.Title>
-                        <Card.Text>
+                        <div>
                             I'm Canadian-American, but I grew up in Central Asia.
                             I graduated from Emory University in Atlanta with a degree in English and Chemistry.
                             My hobbies include working on my truck, guitar, <a href="https://www.chess.com/member/strong-brew">chess</a>, and cooking.
-                        </Card.Text>
+                        </div>
                     </Card.Body>
                 </Card>
                 <Card className='p-3 bg-white w-50 p-2 m-4' border='dark'>
                     <Card.Body>
                         <Card.Title>[ Work Experience: ]</Card.Title>
-                        <Card.Text>
+                        <div>
                             In addition to full-stack web development certification from Georgia Tech, I have significant work experience in start-up operations.
                             I graduated from Emory University in Atlanta with a degree in English and Chemistry.
                             My hobbies include working on my truck, guitar, <a href="https://www.chess.com/member/strong-brew">chess</a>, and cooking.
@@ -36,13 +36,13 @@ export default function About () {
                                 <li>Operational Security</li>
                                 <li>AP/AR Fiancial Streamlining</li>
                             </ul>                 
-                        </Card.Text>
+                        </div>
                     </Card.Body>
                 </Card>
                 <Card className='p-3 bg-white w-50 p-2 m-4' border='dark'>
                     <Card.Body>
-                        <Card.Title>[ Skills ]</Card.Title>
-                        <Card.Text>
+                        <Card.Title>[ Skills: ]</Card.Title>
+                        <div>
                             My techncial proficiencies include:
                             <ul>
                                 <li>Client-side Web Development
@@ -93,7 +93,7 @@ export default function About () {
                                 <li>Coda/Notion/Clickup</li>
                                 <li>HRIS Software: Gusto, JustWorks, etc</li>
                             </ul>              
-                        </Card.Text>
+                        </div>
                     </Card.Body>
                 </Card>
             </Container>
