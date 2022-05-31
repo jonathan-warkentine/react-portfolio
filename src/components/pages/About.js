@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '../Header';
+import Footer from '../Footer';
 import {Card, Container} from 'react-bootstrap';
 
-import bckImg from '../images/headshot.jpg'
+import bckImg from '../../images/headshot.jpg'
 
 export default function About () {
     

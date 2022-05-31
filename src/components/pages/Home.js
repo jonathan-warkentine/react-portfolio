@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '../Header';
+import Footer from '../Footer';
 
 import { Typewriter } from 'react-simple-typewriter'
 import { Container, Row, Col } from 'react-bootstrap';

@@ -1,8 +1,8 @@
 import React from 'react';
 import {Card, Button} from 'react-bootstrap';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import projects from '../data/projects';
+import Header from '../Header';
+import Footer from '../Footer';
+import projects from '../../data/projects';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
