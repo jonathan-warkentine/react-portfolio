@@ -1,11 +1,11 @@
 import { HashRouter, Routes, Route } from 'react-router-dom';
-import {Home, About, Projects} from './pages';
+import {Home, About, Projects, Contact} from './pages';
 import './App.css';
 
 function App() {
   return (
     <HashRouter>
-      <div className="flex-column justify-center align-center min-100-vh bg-primary">
+      <div className="flex-column justify-center align-center min-100-vh">
         <Routes>
           <Route 
             path="/" 
@@ -18,6 +18,10 @@ function App() {
           <Route 
             path="/projects" 
             element={<Projects />} 
+          />
+          <Route 
+            path="/contact" 
+            element={<Contact />} 
           />
         </Routes>
       </div>

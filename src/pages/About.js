@@ -3,10 +3,12 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import {Card, Container} from 'react-bootstrap';
 
+import bckImg from '../images/headshot.jpg'
+
 export default function About () {
     
     return (
-        <>
+        <div style={{ backgroundImage:`url(${bckImg})`, backgroundRepeat:"no-repeat", backgroundPosition: 'left', backgroundSize: 'cover'  }}> 
             <Header/>
             <Container>
                 <Card className='p-3 bg-white w-50 p-2 m-4' border='dark'>
@@ -42,7 +44,7 @@ export default function About () {
                 <Card className='p-3 bg-white w-50 p-2 m-4' border='dark'>
                     <Card.Body >
                         <Card.Title>[ Skills: ]</Card.Title>
-                        <div className='border'>
+                        <div>
                             My techncial proficiencies include:
                             <ul>
                                 <li>Client-side Web Development
@@ -98,6 +100,6 @@ export default function About () {
                 </Card>
             </Container>
             <Footer/>
-        </>
+        </div>
     )
 }
